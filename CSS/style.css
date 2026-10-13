@@ -1,0 +1,418 @@
+body {
+    width: 100%;
+
+    box-sizing: border-box;
+
+
+    header {
+        background-color: #FFFFFF;
+
+
+        .header_bar {
+            display: flex;
+            justify-content: space-between;
+
+
+            .logo>img {
+
+                width: 25.83px;
+                height: 34px;
+
+            }
+
+            .logo {
+                margin-left: 40px;
+                background-color: blue;
+                width: 42px;
+                height: 42px;
+                text-align: center;
+                padding-top: 8px;
+                border-radius: 14px;
+            }
+
+            .mot_logo {
+                font-size: 33px;
+                margin-left: -42px;
+            }
+
+            .mot1_logo {
+                font-size: 30px;
+                color: rgb(0, 94, 255);
+                margin-left: -48px;
+            }
+
+            .menu_image {
+                transform: translate(650%);
+                margin-top: 7%;
+            }
+
+
+        }
+
+        .menu {
+            display: none;
+        }
+
+        .header_button>button {
+            color: #FFFFFF;
+
+            font-size: 150%;
+
+            border: #FF6418;
+            background-color: #FF6418;
+            width: 150%;
+            height: 60px;
+            border-radius: 12px;
+            margin-left: 34px;
+
+
+        }
+    }
+
+
+    nav {
+        background-color: #F3F7FA;
+        padding: 0;
+        width: 177%;
+        height: auto;
+
+        .localisation {
+            display: flex;
+
+            .localisation_image {
+                margin-left: 13%;
+                margin-top: 4.5%;
+            }
+
+            .localisation_description {
+                margin-top: 6%;
+                margin-left: 1%;
+                color: #0866C2;
+            }
+        }
+
+        .descriptionn1 {
+
+            .titre_prin {
+                margin-top: 1%;
+                font-size: 280%;
+                margin-left: 13%;
+
+            }
+
+            .description {
+                margin-left: 14%;
+                margin-top: -4%;
+            }
+
+            .button_presentation_1>button {
+                color: #FFFFFF;
+                font-size: 150%;
+
+                border: #FF6418;
+                background-color: #FF6418;
+                width: 84%;
+                height: 60px;
+                border-radius: 12px;
+
+                margin-left: 6%;
+
+            }
+
+            .button_presentation_1>button img {
+                width: 15px;
+            }
+
+            .button_presentation_2>button {
+                width: 84%;
+                height: 60px;
+                border-radius: 12px;
+                margin-left: 6%;
+                font-size: 150%;
+            }
+
+            .image1>img {
+                width: 85%;
+                height: auto;
+                margin-left: 6%;
+            }
+        }
+
+        .engagement {
+            margin-top: 5%;
+            display: flex;
+            flex-direction: column;
+            gap: 11%;
+
+            .intervention {
+                margin-left: 7%;
+                margin-top: -6.5%;
+                font-size: 120%;
+            }
+
+            .travail {
+                font-size: 120%;
+                margin-left: 7%;
+                margin-top: -6.5%;
+            }
+
+            .profess {
+                font-size: 120%;
+                margin-left: 7%;
+                margin-top: -6.5%;
+            }
+        }
+
+
+
+    }
+
+    article {
+        background-color: #FFFFFF;
+        width: 177%;
+        padding: 0 4%;
+
+        .services {
+            .sutitre {
+                color: #0866C2;
+                padding-top: 8%;
+                font-size: 84%;
+            }
+
+            .titre_section {
+                font-size: 340%;
+                margin-top: -1%;
+            }
+
+            .introduction {
+                margin-top: -5%;
+                font-size: 150%;
+                color: #486176;
+                margin-left: 0.4%;
+            }
+
+        }
+
+        .liste_services {
+            .etape1 {
+
+                .img1_services>img {
+                    width: 85%;
+                    height: auto;
+                    margin-left: 1%;
+                    border-radius: 3%;
+                }
+
+                .wrench>img {
+                    width: 4%;
+                    border: #E7F1FB;
+                    background-color: #E7F1FB;
+                    border-radius: 5%;
+
+                }
+
+                .nom_service1 {
+                    font-size: 192%;
+
+                }
+
+                .description1 {
+                    color: #486176;
+                    font-size: 122%;
+                }
+
+            }
+
+            .etape2 {
+                .img2_services>img {
+                    margin-top: 12%;
+                    width: 85%;
+                    height: auto;
+                    margin-left: 1%;
+                    border-radius: 3%;
+                }
+
+                .bath>img {
+                    width: 4%;
+                    border: #E7F1FB;
+                    background-color: #E7F1FB;
+                    border-radius: 5%;
+
+                }
+
+                .nom_service2 {
+                    font-size: 192%;
+
+                }
+
+                .description2 {
+                    color: #486176;
+                    font-size: 122%;
+                }
+            }
+
+            .etape3 {
+                .img3_services>img {
+                    margin-top: 12%;
+                    width: 85%;
+                    height: auto;
+                    margin-left: 1%;
+                    border-radius: 3%;
+                }
+
+                .carte>img {
+                    width: 4%;
+                    border: #E7F1FB;
+                    background-color: #E7F1FB;
+                    border-radius: 5%;
+
+                }
+
+                .nom_service3 {
+                    font-size: 192%;
+
+                }
+
+                .description3 {
+                    color: #486176;
+                    font-size: 122%;
+                }
+            }
+
+            .button_liste_services>button {
+
+                margin-top: 6%;
+                width: 80%;
+                height: 64px;
+                margin-left: 4%;
+                background-color: #FFFFFF;
+                font-size: 120%;
+                text-align: center;
+                border-radius: 8%;
+
+                img {
+                    width: 3%;
+                    height: auto;
+                    margin-left: 1%;
+
+                }
+
+            }
+
+        }
+    }
+
+    .pourquoi_nous_choisir{
+        background-color: #F3F7FA;
+        width: 177%;
+
+        .surtitre2{
+color: #0866C2;
+padding-top: 12%;
+margin-left: 4%;
+font-size: 133%;
+        }
+        .titre2{
+            font-size: 290%;
+            margin-left: 4%;
+            font-weight: bold;
+        }
+        .avantage_description{
+            color: #486176;
+            font-size: 150%;
+            margin-left: 4%;
+        }
+        .image_robinet >img{
+            width: 88%;
+            margin-top: 5%;
+    
+        }
+    }
+    .avantage{
+        .avantage1{
+            display: flex;
+            gap: 2%;
+            align-items: center;
+                font-weight: bold;
+                font-size: 122%;
+            
+        }
+        .description_avantage1{
+            color: #486176;
+            margin-left: 1%;
+            font-size: 123%;
+        }
+
+         .avantage2{
+            display: flex;
+            gap: 2%;
+            align-items: center;
+                font-weight: bold;
+                font-size: 122%;
+            
+        }
+        .description_avantage2{
+            color: #486176;
+            margin-left: 1%;
+            font-size: 123%;
+        }
+
+
+         .avantage3{
+            display: flex;
+            gap: 2%;
+            align-items: center;
+                font-weight: bold;
+                font-size: 122%;
+            
+        }
+  .description_avantage3{
+            color: #486176;
+            margin-left: 1%;
+            font-size: 123%;
+        }
+       
+       
+        .avantage4{
+            display: flex;
+            gap: 2%;
+            align-items: center;
+                font-weight: bold;
+                font-size: 122%;
+            
+        }
+        .description_avantage4{
+            color: #486176;
+            margin-left: 1%;
+            font-size: 123%;
+        }
+    }
+
+    footer{
+      background-color: #102A43;
+      width: 177%;
+        .pied_page{ 
+             .marque{
+                display: flex;
+                align-items: center;
+                .marque1>img{
+                    width: 9%;
+                    height: 9%;
+                   background-color: #0866C2; 
+                   border-radius: 9%;
+                }
+                .marque1{
+                     
+                   width: 44%;
+                   height: 44%;
+                   
+                    text-align: center;
+                    padding-top: 9%;
+                    color: #F3F7FA;
+                }
+             }
+
+
+        }
+    }
+}

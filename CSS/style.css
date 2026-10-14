@@ -3,14 +3,13 @@ body {
 
     box-sizing: border-box;
 
-
     header {
         background-color: #FFFFFF;
 
 
         .header_bar {
             display: flex;
-            justify-content: space-between;
+            
 
 
             .logo>img {
@@ -32,22 +31,23 @@ body {
 
             .mot_logo {
                 font-size: 33px;
-                margin-left: -42px;
+                
             }
 
             .mot1_logo {
                 font-size: 30px;
                 color: rgb(0, 94, 255);
-                margin-left: -48px;
+                
             }
 
-            .menu_image {
+           
+ .menu_image {
                 transform: translate(650%);
                 margin-top: 7%;
             }
 
-
-        }
+        } 
+       
 
         .menu {
             display: none;
@@ -78,7 +78,7 @@ body {
 
         .localisation {
             display: flex;
-
+flex-wrap: wrap;
             .localisation_image {
                 margin-left: 13%;
                 margin-top: 4.5%;
@@ -302,86 +302,99 @@ body {
         }
     }
 
-    .pourquoi_nous_choisir{
+    .pourquoi_nous_choisir {
         background-color: #F3F7FA;
         width: 177%;
 
-        .surtitre2{
-color: #0866C2;
-padding-top: 12%;
-margin-left: 4%;
-font-size: 133%;
+        .surtitre2 {
+            color: #0866C2;
+            padding-top: 12%;
+            margin-left: 4%;
+            font-size: 133%;
         }
-        .titre2{
+
+        .titre2 {
             font-size: 290%;
             margin-left: 4%;
             font-weight: bold;
         }
-        .avantage_description{
+
+        .avantage_description {
             color: #486176;
             font-size: 150%;
             margin-left: 4%;
         }
-        .image_robinet >img{
+
+        .image_robinet>img {
             width: 88%;
             margin-top: 5%;
-    
+
         }
     }
-    .avantage{
-        .avantage1{
-            display: flex;
-            gap: 2%;
-            align-items: center;
-                font-weight: bold;
-                font-size: 122%;
-            
-        }
-        .description_avantage1{
-            color: #486176;
-            margin-left: 1%;
-            font-size: 123%;
-        }
 
-         .avantage2{
-            display: flex;
-            gap: 2%;
-            align-items: center;
-                font-weight: bold;
-                font-size: 122%;
-            
-        }
-        .description_avantage2{
-            color: #486176;
-            margin-left: 1%;
-            font-size: 123%;
-        }
-
-
-         .avantage3{
-            display: flex;
-            gap: 2%;
-            align-items: center;
-                font-weight: bold;
-                font-size: 122%;
-            
-        }
-  .description_avantage3{
-            color: #486176;
-            margin-left: 1%;
-            font-size: 123%;
-        }
+    .avantage {
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
        
-       
-        .avantage4{
+        .avantage1 {
             display: flex;
             gap: 2%;
             align-items: center;
-                font-weight: bold;
-                font-size: 122%;
-            
+            font-weight: bold;
+            font-size: 122%;
+
         }
-        .description_avantage4{
+
+        .description_avantage1 {
+            color: #486176;
+            margin-left: 1%;
+            font-size: 123%;
+        }
+
+        .avantage2 {
+            display: flex;
+          
+            gap: 2%;
+            align-items: center;
+            font-weight: bold;
+            font-size: 122%;
+
+        }
+
+        .description_avantage2 {
+            color: #486176;
+            margin-left: 1%;
+            font-size: 123%;
+        }
+
+
+        .avantage3 {
+            display: flex;
+            gap: 2%;
+            align-items: center;
+            font-weight: bold;
+            font-size: 122%;
+
+        }
+
+        .description_avantage3 {
+            color: #486176;
+            margin-left: 1%;
+            font-size: 123%;
+        }
+
+
+        .avantage4 {
+            display: flex;
+            gap: 2%;
+            align-items: center;
+            font-weight: bold;
+            font-size: 122%;
+
+        }
+
+        .description_avantage4 {
             color: #486176;
             margin-left: 1%;
             font-size: 123%;
@@ -390,31 +403,243 @@ font-size: 133%;
 
     /* need work */
 
-    footer{
-      background-color: #102A43;
-      width: 177%;
-        .pied_page{ 
-             .marque{
-                display: flex;
-                align-items: center;
-                .marque1>img{
-                    width: 9%;
-                    height: 9%;
-                   background-color: #0866C2; 
-                   border-radius: 9%;
+    footer {
+        background-color: #102A43;
+        width: 177%;
+        padding: 0 8%;
+
+        .pied_page {
+            .marque {
+
+                .marque1>img {
+                    width: 23px;
+                    height: auto;
+                    border: #0866C2;
+                    background-color: #0866C2;
+                    border-radius: 8px;
+
+
                 }
-                .marque1{
-                     
-                   width: 44%;
-                   height: 44%;
-                   
+
+                .marque1 {
+                    display: flex;
+                    align-items: center;
                     text-align: center;
-                    padding-top: 9%;
+                    gap: 14px;
+                    font-weight: bold;
+                    font-size: 180%;
+                    padding-top: 7%;
                     color: #F3F7FA;
                 }
-             }
+
+                .marque2 {
+                    color: #C2D0DD;
+                    margin-top: 2%;
+                    font-size: 150%;
+                    font-weight: initial;
+                }
+
+            }
+        }
 
 
+        .liens_pieds {
+            .lien_utiles {
+                .lien_titre11 {
+                    color: #FFFFFF;
+                    font-weight: bold;
+                    font-size: 150%;
+                }
+
+                .lien_acceuil1 a {
+                    color: #C2D0DD;
+                    text-decoration: none;
+
+                }
+
+                .lien_services1 a {
+                    color: #C2D0DD;
+                    text-decoration: none;
+                }
+
+                .lien_propos1 a {
+                    color: #C2D0DD;
+                    text-decoration: none;
+                }
+
+                .lien_contact1 a {
+                    color: #C2D0DD;
+                    text-decoration: none;
+                }
+            }
+
+
+            .lien_service {
+                padding-top: 2%;
+
+                .lien_titre2 {
+                    font-weight: bold;
+                    font-size: 150%;
+                    color: #FFFFFF;
+                }
+
+                .lien_depannage a {
+                    color: #C2D0DD;
+                    text-decoration: none;
+                }
+
+                .lien_installation a {
+                    color: #C2D0DD;
+                    text-decoration: none;
+                }
+
+                .lien_reparation a {
+                    color: #C2D0DD;
+                    text-decoration: none;
+
+                }
+            }
+
+
+            .liens_coordonnees {
+                .contactez {
+                    font-weight: bold;
+                    color: #FFFFFF;
+                    font-size: 150%;
+                    padding-top: 2%;
+                }
+
+                .phone {
+                    display: flex;
+                    align-items: center;
+
+                    .numero_img img {
+                        width: 70%;
+                    }
+
+                    .numero {
+                        font-size: 150%;
+                        color: #C2D0DD;
+                    }
+                    
+                }
+                .email_info{
+                    display: flex;
+                    align-items: center;
+                
+                    .email_img{
+                        width: 70%;
+                    }
+                    .email_adress a{
+                        color: #C2D0DD;
+                        font-size: 150%;
+                        text-decoration: none;
+                        margin-left: -110%;
+                    }
+                }
+                .localisation{
+                    display: flex;
+                    align-items: center;
+                    .map_img img{
+                         width: 70%;
+                         color: #F3F7FA;
+                    }
+                    .map_ip a{
+                        color: #C2D0DD;
+                        text-decoration: none;
+                        font-size: 150%;
+                    }
+                }
+            
+                .last_partie{
+                    color: #C2D0DD;
+                }
+            }
+        }
+
+
+    }
+}
+
+
+@media screen and (min-width:481px) {
+    body{
+
+main{
+
+    header{
+       display: flex;
+        width: 100%;
+        
+
+
+gap: 44%;
+align-items: center;
+justify-content: space-between;
+.header_bar{
+    
+     align-items: center;
+margin-left: 3%;
+
+    .menu_image img{
+        display: none;
+    }
+    
+   
+    .header_button button{
+     
+justify-self: end;
+    }
+
+}
+.menu{
+    display: flex;
+  
+    align-items: center;
+    gap: 19%;
+     
+    .Acceuil a{
+        color: #0866C2;
+        
+
+    }
+    .Services a{
+color: #102A43;
+text-decoration: none;
+    }
+    .propos a{
+        color: #102A43;
+text-decoration: none;
+    }
+.Contact a{ 
+      color: #102A43;
+text-decoration: none;
+}
+   }
+    
+}
+
+
+nav{
+    
+    .localisation{
+        display: flex;
+        align-items: center;
+    }
+    .descriptionn1{
+       
+        display: flex;
+gap: 20%;
+
+        .image1 img{
+           width: 750px;
+           height: auto;
+            margin-top: -6%;
         }
     }
 }
+    
+}
+
+}}      
+

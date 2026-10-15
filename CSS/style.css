@@ -5,49 +5,49 @@ body {
 
     header {
         background-color: #FFFFFF;
-
+        width: 100%;
 
         .header_bar {
             display: flex;
-            
+            align-items: center;
 
 
             .logo>img {
 
-                width: 25.83px;
-                height: 34px;
+                width: 15.83px;
+                height: 24px;
 
             }
 
             .logo {
-                margin-left: 40px;
+                margin-left: 6%;
                 background-color: blue;
-                width: 42px;
-                height: 42px;
+                width: 25px;
+                height: 25px;
                 text-align: center;
                 padding-top: 8px;
-                border-radius: 14px;
+                border-radius: 8px;
             }
 
             .mot_logo {
-                font-size: 33px;
-                
+                font-size: 120%;
+
             }
 
             .mot1_logo {
-                font-size: 30px;
+                font-size: 130%;
                 color: rgb(0, 94, 255);
-                
+
             }
 
-           
- .menu_image {
-                transform: translate(650%);
-                margin-top: 7%;
+
+            .menu_image {
+                margin-left: 50%;
+
             }
 
-        } 
-       
+        }
+
 
         .menu {
             display: none;
@@ -60,10 +60,10 @@ body {
 
             border: #FF6418;
             background-color: #FF6418;
-            width: 150%;
+            width: 90%;
             height: 60px;
             border-radius: 12px;
-            margin-left: 34px;
+            margin-left: 5%;
 
 
         }
@@ -72,13 +72,14 @@ body {
 
     nav {
         background-color: #F3F7FA;
-        padding: 0;
-        width: 177%;
+
+        width: 100%;
         height: auto;
 
         .localisation {
             display: flex;
-flex-wrap: wrap;
+            flex-wrap: wrap;
+
             .localisation_image {
                 margin-left: 13%;
                 margin-top: 4.5%;
@@ -139,27 +140,27 @@ flex-wrap: wrap;
         }
 
         .engagement {
-            margin-top: 5%;
+            margin-top: 4%;
             display: flex;
             flex-direction: column;
             gap: 11%;
 
             .intervention {
-                margin-left: 7%;
-                margin-top: -6.5%;
+                margin-left: 9%;
+                margin-top: -10%;
                 font-size: 120%;
             }
 
             .travail {
                 font-size: 120%;
-                margin-left: 7%;
-                margin-top: -6.5%;
+                margin-left: 9%;
+                margin-top: -10%;
             }
 
             .profess {
                 font-size: 120%;
-                margin-left: 7%;
-                margin-top: -6.5%;
+                margin-left: 9%;
+                margin-top: -10%;
             }
         }
 
@@ -169,10 +170,12 @@ flex-wrap: wrap;
 
     article {
         background-color: #FFFFFF;
-        width: 177%;
-        padding: 0 4%;
+        width: 100%;
+
 
         .services {
+            padding: 0 4%;
+
             .sutitre {
                 color: #0866C2;
                 padding-top: 8%;
@@ -199,7 +202,7 @@ flex-wrap: wrap;
                 .img1_services>img {
                     width: 85%;
                     height: auto;
-                    margin-left: 1%;
+                    margin-left: 4%;
                     border-radius: 3%;
                 }
 
@@ -228,7 +231,7 @@ flex-wrap: wrap;
                     margin-top: 12%;
                     width: 85%;
                     height: auto;
-                    margin-left: 1%;
+                    margin-left: 3%;
                     border-radius: 3%;
                 }
 
@@ -256,7 +259,7 @@ flex-wrap: wrap;
                     margin-top: 12%;
                     width: 85%;
                     height: auto;
-                    margin-left: 1%;
+                    margin-left: 3%;
                     border-radius: 3%;
                 }
 
@@ -304,7 +307,7 @@ flex-wrap: wrap;
 
     .pourquoi_nous_choisir {
         background-color: #F3F7FA;
-        width: 177%;
+        width: 100%;
 
         .surtitre2 {
             color: #0866C2;
@@ -328,15 +331,16 @@ flex-wrap: wrap;
         .image_robinet>img {
             width: 88%;
             margin-top: 5%;
+            margin-left: 3%;
 
         }
     }
 
     .avantage {
-       display: flex;
-       flex-direction: column;
-       flex-wrap: wrap;
-       
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
         .avantage1 {
             display: flex;
             gap: 2%;
@@ -354,7 +358,7 @@ flex-wrap: wrap;
 
         .avantage2 {
             display: flex;
-          
+
             gap: 2%;
             align-items: center;
             font-weight: bold;
@@ -405,10 +409,12 @@ flex-wrap: wrap;
 
     footer {
         background-color: #102A43;
-        width: 177%;
-        padding: 0 8%;
+        width: 100%;
+
 
         .pied_page {
+            padding: 0 4%;
+
             .marque {
 
                 .marque1>img {
@@ -444,6 +450,8 @@ flex-wrap: wrap;
 
 
         .liens_pieds {
+            padding: 0 4%;
+
             .lien_utiles {
                 .lien_titre11 {
                     color: #FFFFFF;
@@ -521,37 +529,42 @@ flex-wrap: wrap;
                         font-size: 150%;
                         color: #C2D0DD;
                     }
-                    
+
                 }
-                .email_info{
+
+                .email_info {
                     display: flex;
                     align-items: center;
-                
-                    .email_img{
+
+                    .email_img {
                         width: 70%;
                     }
-                    .email_adress a{
+
+                    .email_adress a {
                         color: #C2D0DD;
                         font-size: 150%;
                         text-decoration: none;
-                        margin-left: -110%;
+                        margin-left: -24%;
                     }
                 }
-                .localisation{
+
+                .localisation {
                     display: flex;
                     align-items: center;
-                    .map_img img{
-                         width: 70%;
-                         color: #F3F7FA;
+
+                    .map_img img {
+                        width: 70%;
+                        color: #F3F7FA;
                     }
-                    .map_ip a{
+
+                    .map_ip a {
                         color: #C2D0DD;
                         text-decoration: none;
                         font-size: 150%;
                     }
                 }
-            
-                .last_partie{
+
+                .last_partie {
                     color: #C2D0DD;
                 }
             }
@@ -563,83 +576,270 @@ flex-wrap: wrap;
 
 
 @media screen and (min-width:481px) {
-    body{
+    body {
+        main {
+            header {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
 
-main{
+                .menu_image img {
+                    display: none;
+                }
 
-    header{
-       display: flex;
-        width: 100%;
-        
-
-
-gap: 44%;
-align-items: center;
-justify-content: space-between;
-.header_bar{
-    
-     align-items: center;
-margin-left: 3%;
-
-    .menu_image img{
-        display: none;
-    }
-    
-   
-    .header_button button{
-     
-justify-self: end;
-    }
-
-}
-.menu{
-    display: flex;
-  
-    align-items: center;
-    gap: 19%;
-     
-    .Acceuil a{
-        color: #0866C2;
-        
-
-    }
-    .Services a{
-color: #102A43;
-text-decoration: none;
-    }
-    .propos a{
-        color: #102A43;
-text-decoration: none;
-    }
-.Contact a{ 
-      color: #102A43;
-text-decoration: none;
-}
-   }
-    
-}
+                .menu {
+                    display: flex;
+                    gap: 11%;
 
 
-nav{
-    
-    .localisation{
-        display: flex;
-        align-items: center;
-    }
-    .descriptionn1{
-       
-        display: flex;
-gap: 20%;
+                    .Acceuil a {
+                        color: #0866C2;
 
-        .image1 img{
-           width: 750px;
-           height: auto;
-            margin-top: -6%;
+                    }
+
+                    .Services a {
+                        color: #102A43;
+                        text-decoration: none;
+                    }
+
+                    .propos a {
+                        color: #102A43;
+                        text-decoration: none;
+                    }
+
+                    .Contact a {
+                        color: #102A43;
+                        text-decoration: none;
+                    }
+
+
+                }
+
+                .header_button {
+                    width: 17%;
+                    height: 5%;
+                    font-size: 50%;
+                }
+            }
+
+
+            nav {
+                .localisation {
+                    display: flex;
+                    margin-left: -10%;
+
+                    .localisation_image img {
+                        width: 50%;
+                        margin-top: 113%;
+
+                    }
+
+                    .localisation_description {
+                        margin-left: -0.5%;
+                        font-size: 124%;
+                    }
+
+
+                }
+
+
+                .descriptionn1 {
+                    display: flex
+                }
+
+                .descriptionn1 .titre_prin {
+                    font-size: 320%;
+                    font-weight: bold;
+
+                }
+
+
+                .descriptionn1 .description {
+                    font-size: 100%;
+                    font-weight: normal;
+                    width: 120%;
+                    margin-top: -10%;
+                }
+
+                .descriptionn1 .image1 img {
+                    width: 67%;
+                    height: auto;
+                    margin-left: 25%;
+                    margin-top: -10%;
+                }
+
+                .descriptionn1 .button_presentation_1 {
+                    margin-top: 15%;
+                    font-size: 50%;
+                    width: 70%;
+                    font-weight: bold;
+                    margin-top: 6;
+                    margin-left: 8%;
+
+                }
+
+                .descriptionn1 .button_presentation_2 {
+                    margin-left: 70%;
+                    margin-top: -15%;
+                    width: 70%;
+                    font-size: 50%;
+                    font-weight: bold;
+
+                }
+
+
+                .engagement {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 20%;
+                    justify-content: space-around;
+                }
+
+                .engagement .intervention_1 {
+                    display: flex;
+                    flex-direction: row;
+
+                    .intervention_img img {
+                        margin-top: -23%;
+                    }
+
+                    .intervention {
+                        margin-top: 2%;
+                        font-size: 140%;
+
+                    }
+                }
+
+                .engagement .travail_1 {
+                    display: flex;
+                    flex-direction: row;
+
+                    .travail {
+                        margin-top: 2%;
+                    }
+
+                    .travail_img img {
+                        margin-top: -23%;
+                    }
+
+                }
+
+                .engagement .profess_1 {
+                    display: flex;
+                    flex-direction: row;
+
+
+                    .profess_img {
+                        margin-top: 3%;
+                    }
+
+                    .profess {
+                        margin-top: 2%;
+                    }
+                }
+
+            }
+
+            article {
+                .services {
+                    .sutitre {
+                        margin-left: 45%;
+                        font-size: 140%;
+                    }
+
+                    .titre_section br {
+                        display: none;
+
+
+
+                    }
+
+                    .titre_section {
+                        font-size: 220%;
+                        margin-left: 35%;
+                        font-weight: bold;
+                    }
+
+                    .introduction br {
+                        display: none;
+                    }
+
+                    .introduction {
+                        font-size: 100%;
+                        margin-top: 1%;
+                        margin-left: 40%;
+                    }
+                }
+
+                .liste_services {
+                    .les_services {
+                        display: flex;
+
+                        width: 80%;
+                        margin-left: 10%;
+
+
+                        .etape1 {
+                            .img1_services img {
+                                padding-top: 11%;
+                            }
+                        }
+
+
+                    }
+                }
+
+
+            }
+
+            .pourquoi_nous_choisir {
+
+
+                .avantagee {
+                    margin-left: 12%;
+                    display: flex;
+
+                    .surtitre2 {
+                        margin-left: 80%;
+
+                        min-width: 700px;
+                    }
+
+                    .titre2 br {
+                        display: none;
+
+                    }
+
+                    .titre2 {
+                        margin-left: 80%;
+                        min-width: 700px;
+
+
+                    }
+
+                    .avantage_description {
+                        margin-left: 80%;
+                        min-width: 700px;
+
+                    }
+                }
+
+                .image_robinet img {
+                    margin-left: -110%;
+                    width: 90%;
+
+                }
+
+                .avantage{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                transform: translate(47%);
+                margin-top: -12%;
+                font-size: 170%;
+                }
+
+            }
         }
     }
 }
-    
-}
-
-}}      
-
